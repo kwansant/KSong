@@ -21,7 +21,7 @@ não buscamos soluções.
 # 2 Utilização da tag "audio" [x];
 # 3 Play pré posicionado na tag "footer"[x]
 # 4 Colocar barra de audio[x];
-# 5 criar cards de músicas na string <main> [x];
+# 5 criar cards de músicas na <main> [x];
 
 # Criação base do estilo CSS [X];
 # 1 Mudar cor de fundo para uma cor escura [x];
