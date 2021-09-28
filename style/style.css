@@ -1,0 +1,450 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+body{
+    margin: 0;
+    background: #0c0c0cf6;
+    font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+    overflow: hidden;
+}
+
+header{
+    padding: 10px;
+    width: 275px;
+    height: 650px;
+    background: #000000f6;
+    color: #f0f8ff;
+}
+
+#logo{
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+h1{
+    margin-bottom: 15px;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    display: inline-block;
+    font-size: 30px;
+    font-family: spotify-circular,spotify-circular-cyrillic,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+    font-weight: bolder;
+}
+
+/*---------------------------------------------*/
+
+.icons{
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+    display: inline-block;
+}
+
+#home{
+    position: relative;
+    left: 20px;
+    bottom: 23px;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#home:active{
+    background-color: #282828;
+    border-radius: 5px;
+    padding-right: 175px;
+}
+
+#lib{
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+#lib:active{
+    background-color: #282828;
+    border-radius: 5px;
+    padding-right: 160px;
+}
+
+#my{
+    position: relative;
+    left: 20px;
+    bottom: 22px;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+#my:active{
+    background-color: #282828;
+    border-radius: 5px;
+    padding-right: 110px;
+}
+
+/*---------------------------------------------*/
+
+#cp{
+    position: relative;
+    left: 20px;
+    bottom: 23px;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#cp:active{
+    background-color: #282828;
+    border-radius: 5px;
+    padding-right: 120px;
+}
+
+#mc{
+    position: relative;
+    left: 20px;
+    bottom: 23px;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom:0px;
+    box-sizing: border-box;
+}
+
+#mc:active{
+    background-color: #282828;
+    border-radius: 5px;
+    padding-right: 87px;
+}
+
+/*---------------------------------------------*/
+
+hr{
+    background-color: #282828;
+    border: none;
+    height: 1px;
+    min-height: 1px;
+    margin: 8px;
+}
+/*---------------------------------------------*/
+.container-header{
+    float: right;
+    width: 81.1%;
+    padding: 0;
+    
+}
+
+.fundo-perfil{
+    width: 85px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    left: 90%;
+    background-color: #0c0c0cfa;
+    border-radius: 50px;
+}
+
+.perfil{
+    width:30px;
+    height: 30px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.perfil img{
+    bottom: 0;
+    width: 100%;
+}
+
+#name-perfil{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+.mais-perfil{
+    position: relative;
+    left: 45px;
+    bottom: 39px;
+}
+
+#mais{
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+.nextPage{
+    position: relative;
+    top: 30px;
+    transform: translateX(-87%);
+}
+
+.backPage{
+    position: relative;
+    top: 30px;
+    transform: translateX(-92%);
+    margin-bottom: 5px;
+}
+
+#container-color{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #201550d5;
+}
+
+#horario{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+/*---------------------------------------------*/
+
+.cards-tocados{
+    width: 350px;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: #f0f8ff;
+    background-color: #282828ff;
+    border-radius: 5px;
+}
+
+#title1{
+    float: right;
+    transform: translateY(10px);
+    position: relative;
+    right: 180px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+#title2{
+    float: right;
+    transform: translateY(10px);
+    position: relative;
+    right: 205px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+#title3{
+    float: right;
+    transform: translateY(10px);
+    position: relative;
+    right: 225px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+#title4{
+    float: right;
+    transform: translateY(10px);
+    position: relative;
+    right: 135px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+#title5{
+    float: right;
+    transform: translateY(10px);
+    position: relative;
+    right: 120px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+#title6{
+    float: right;
+    transform: translateY(10px);
+    position: relative;
+    right: 175px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+/*---------------------------------------------*/
+.recomendado{
+    margin-top: 1%;
+    margin-left: 3%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.recomendados{
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 2%;
+    color: #ffffff;
+    background-color: #501ab450;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.cards-song{
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+#card-titulo{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+#card-artista{
+    margin-top: 0;
+    font-size: 12px;
+    color: #888888;
+}
+
+/*---------------------------------------------*/
+footer{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    background: #0c0c0cfa;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.card{
+    display: inline-flex;
+    width: 75px;
+    height: 75px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.card-content{
+    margin-left: 70px;
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    color: #ffffff;
+}
+
+h5{
+    width: 200px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.artista{
+    width: 200px;
+    font-size: 10px;
+    color: #888888;
+}
+
+/*---------------------------------------------*/
+
+.production{
+    margin-left: 360px;
+    display: inline-flex;
+    width: 500px;
+}
+
+#first-page{
+    position: relative;
+    left: 270px;
+    transform: translateX(-60%);
+    transform: translateY(-88%);
+}
+
+#playPause{
+    position: relative;
+    left: 325px;
+    transform: translateX(-70%);
+    transform: translateY(-90%);
+}
+
+#lastPage{
+    position: relative;
+    left: 370px;
+    transform: translateX(-60%);
+    transform: translateY(-88%);
+}
+
+#current-duration{
+    position: relative;
+    top: 43px;
+    right: 10px;
+    display: inline-flex;
+    color: #888888;
+    font-size: 12px;
+}
+
+#seekbar{
+    display: inline-block;
+    margin-top: 50px;
+    padding-right: 30px;
+    width: 500px;
+    border: none;
+}
+
+#total-duration{
+    position: relative;
+    top: 42px;
+    right: 20px;
+    display: inline-flex;
+    color: #888888;
+    font-size: 12px;
+}
+/*---------------------------------------------*/
+
+.volume-geral{
+    margin-left: 300px;
+}
+
+#mute{
+    display: inline-block;
+    position: relative; 
+    top: 20px;   
+    transform: translateX(-40PX);
+    color: #1ed760;
+}
+
+#vol-control{
+    display: inline-block;
+    width: 100px;
+    border: none;
+    position: relative;
+    bottom: 13px;
+}
+
+.btn-floating{
+    background-color: #1ed760;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    background-color: #1ed760;
+}
+
+input[type="range"]::-moz-range-thumb{
+    background-color: #1ed760;
+}
+
+input[type="range"]::-ms-thumb{
+    background-color: #1ed760;
+}
