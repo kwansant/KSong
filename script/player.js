@@ -70,6 +70,17 @@ export default {
     resetPlaylist(){
         this.currentPlaying = 0;
         this.refresh();
+    },
+    horário(){
+        this.hora  = document.querySelector("#horario");
+        now = new Date
+
+        if (now.getHours() >= 6 && now.getHours() < 12){
+            return this.hora.innerText = "Bom dia!"
+        } else if (now.getHours() >= 12 && now.getHours() < 18){
+            return this.hora.innerText = "Boa Tarde!"
+        } else {
+            return this.hora.innerText = "Boa Noite!"
+        }
     }
-    
 }
