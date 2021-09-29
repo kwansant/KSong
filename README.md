@@ -20,23 +20,23 @@ quando largamos algo pela metade por medo de não conseguir sem nem ir buscar so
 fontes.
 
 # Criação base do HTML [X];
-#1 Criação do body, com menu a esquerda da página[x];
-#2 Utilização da tag "audio" [x];
-#3 Play pré posicionado na tag "footer"[x]
-#4 Colocar barra de audio[x];
-#5 criar cards de músicas[x];
+#1 Criação do body, com menu a esquerda da página[x];<br>
+#2 Utilização da tag "audio" [x];<br>
+#3 Play pré posicionado na tag "footer"[x];<br>
+#4 Colocar barra de audio[x];<br>
+#5 criar cards de músicas[x];<br>
 
 # Criação base do estilo CSS [X];
-#1 Mudar cor de fundo para uma cor escura [x];
-#2 Posicionar as imagens na região do player [x]
-#3 Posicionamento do menu [x];
-#4 Alterar cor do seekbar [x];
-#5 Estilizar barra e icone de audio [x];
-#6 Estilizar os card de conteúdo [x];
+#1 Mudar cor de fundo para uma cor escura [x];<br>
+#2 Posicionar as imagens na região do player [x];<br>
+#3 Posicionamento do menu [x];<br>
+#4 Alterar cor do seekbar [x];<br>
+#5 Estilizar barra e icone de audio [x];<br>
+#6 Estilizar os card de conteúdo [x];<br>
 
 # Criação do Código em Js [X];
-#1 Colocar funcionalidade nos bostões de reprodução[x];
-#2 Colocar funcionalidade no seekbar da música e de audio [x];
-#3 Criar banco de dados para colocar as músicas [x];
-#4 Manter o código limpo [x];
-#5 Debugar código [x];
+#1 Colocar funcionalidade nos bostões de reprodução[x];<br>
+#2 Colocar funcionalidade no seekbar da música e de audio [x];<br>
+#3 Criar banco de dados para colocar as músicas [x];<br>
+#4 Manter o código limpo [x];<br>
+#5 Debugar código [x];<br>
