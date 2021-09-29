@@ -13,7 +13,7 @@ header{
     width: 19%;
     max-width: 270px;
     height: 95vh;
-    max-height: 690px;
+    max-height: 680px;
     background: #000000f6;
     color: #f0f8ff;
 }
@@ -58,7 +58,7 @@ h1{
 #home:active{
     background-color: #282828;
     border-radius: 5px;
-    padding-right: 175px;
+    padding-right: 10vw;
 }
 
 #lib{
@@ -74,7 +74,7 @@ h1{
 #lib:active{
     background-color: #282828;
     border-radius: 5px;
-    padding-right: 160px;
+    padding-right: 9vw;
 }
 
 #my{
@@ -90,7 +90,7 @@ h1{
 #my:active{
     background-color: #282828;
     border-radius: 5px;
-    padding-right: 110px;
+    padding-right: 5vw;
 }
 
 /*---------------------------------------------*/
@@ -108,7 +108,7 @@ h1{
 #cp:active{
     background-color: #282828;
     border-radius: 5px;
-    padding-right: 120px;
+    padding-right: 5.7vw;
 }
 
 #mc{
@@ -124,7 +124,7 @@ h1{
 #mc:active{
     background-color: #282828;
     border-radius: 5px;
-    padding-right: 87px;
+    padding-right: 3vw;
 }
 
 /*---------------------------------------------*/
