@@ -1,6 +1,6 @@
 # KSong
 
-Bom a exatamente uma semana recebi o desafío do meu curso de desenvolvimento web que era colocar funcionalidade em botões
+Bom a exatamente há uma semana recebi o desafío do meu curso de desenvolvimento web que era colocar funcionalidade em botões
 para que reproduissem alguma música(Desafio: Criar o próprio controle de reprodução de música), neste dia eu estava um pouco
 criativo e afim de me desafiar e ir um pouco além, então comecei a criar um player de música por partes que fosse parecido
 e tão simples de usar quanto o Spotify, após ter feito toda a estrutora de layout comecei a fazer o Js com o auxilio de alguns vídeos

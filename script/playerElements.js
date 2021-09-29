@@ -13,11 +13,13 @@ export default{
         this.totalDuration = document.querySelector("#total-duration");
         this.nextSong = document.querySelector("#last-page");
         this.backSong = document.querySelector("#back-song");
+        this.hora = document.querySelector("#horario");
     },
     createAudio(audio){
         this.audio = new Audio(audio);
     },
     actions(){
+        this.hora.onchange = () => this.horario();
         this.backSong.onclick = () => this.audio.currentTime -= 15;
         this.nextSong.onclick = () => this.next(this.audio.pause());
         this.audio.onended = () => this.next();
@@ -31,5 +33,6 @@ export default{
         this.seekbar.max = this.audio.duration;
         this.totalDuration.innerText = secundsToMinutes(this.audio.duration);
         
-    }
+    },
+
 }
